@@ -1,7 +1,7 @@
 package com.daily.practice.feb21.string.programs;
 
 public class RemoveWhiteSpacesInString {
-	public String removingSpacesInString(String sentence) {
+	public String removeSpacesInString(String sentence) {
 		String withoutSpaces = "";
 
 		for (int i = 0; i < sentence.length(); i++) {
