@@ -13,10 +13,10 @@ public class ReplaceTheSpacesOfAStringWithSpecificCharacter {
 		return sentence;
 	}
 
-	public String replace2(String sentence2,char ch2) {
-		
-		sentence2 = sentence2.replace(' ', ch2);
-		//System.out.println(sentence2);
+	public String replace2(String sentence2, char ch2) {
+
+		sentence2 = sentence2.replace(' ', '*');
+		// System.out.println(sentence2);
 		return sentence2;
 	}
 }
