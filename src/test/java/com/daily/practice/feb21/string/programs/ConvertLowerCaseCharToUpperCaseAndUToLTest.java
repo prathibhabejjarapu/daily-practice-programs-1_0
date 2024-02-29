@@ -14,9 +14,9 @@ public class ConvertLowerCaseCharToUpperCaseAndUToLTest {
 
 	@Test
 	public void testCaseForconvertOpposite() {
-		String name = "PrAthibha thota";
+		String name = "PrAthibha*thota";
 		String result = ch.convertOpposite(name);
-		Assert.assertEquals("pRaTHIBHA THOTA", result);
+		Assert.assertEquals("ATOHT*AHBIHTaRp", result);
 		// TODO:convert only lower to upper and vice versa
 		// TODO:implement the same in reverse order
 	}
