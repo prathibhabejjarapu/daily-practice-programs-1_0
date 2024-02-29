@@ -1,10 +1,9 @@
 package com.daily.practice.feb21.string.programs;
 
 public class ConvertLowerCaseCharToUpperCaseAndUToL {
-	
-		String result = "";
 
 	public String convertOpposite(String name) {
+		String result = "";
 		for (int i = 0; i < name.length(); i++) {
 			char c = name.charAt(i);
 			if (Character.isUpperCase(c)) {
@@ -16,4 +15,5 @@ public class ConvertLowerCaseCharToUpperCaseAndUToL {
 		}
 		return result;
 	}
+	
 }
